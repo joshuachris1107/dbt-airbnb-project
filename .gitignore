@@ -1,0 +1,15 @@
+# dbt generated artifacts
+target/
+logs/
+dbt_packages/
+
+# dbt local user/config files
+profiles.yml
+.user.yml
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
