@@ -40,3 +40,5 @@ models:
     
 data_tests:
   +store_failures: true
+  +schema: test_failures
+  
