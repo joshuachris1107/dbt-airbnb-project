@@ -10,6 +10,12 @@ sources:
             tests:
               - dbt_expectations.expect_column_distinct_count_to_equal:
                   value: 4
+          - name: price
+            description: The price of the listing.
+            tests:
+              - dbt_expectations.expect_column_values_to_match_regex:
+                  regex: "^\\\\$[0-9][0-9\\\\.]+$"
+                  #this regex checks that the price starts with dollar sign, like this $100.00 or %5.00        
       - name: hosts
         identifier: raw_hosts
 
