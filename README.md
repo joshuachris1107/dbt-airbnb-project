@@ -1,4 +1,4 @@
-# Airbnb Analytics — dbt + Snowflake Project
+# Airbnb Analytics  dbt + Snowflake Project
 
 A dbt project built on Snowflake that transforms raw Airbnb data into analytics-ready models. It covers core dbt concepts including dimensional modeling, incremental loading, snapshots, testing, and documentation.
 
