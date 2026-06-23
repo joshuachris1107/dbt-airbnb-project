@@ -46,6 +46,8 @@ models:
     src:
      +materialized: ephemeral
     # Here, we tell dbt to build all models in the example/staging/ directory as tables
+    fct:
+      +tags: ['fact']
     
 data_tests:
   +store_failures: true
