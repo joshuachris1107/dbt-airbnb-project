@@ -53,3 +53,5 @@ data_tests:
   +store_failures: true
   +schema: test_failures
   
+vars:
+  user_name: default_username_in_project_file
