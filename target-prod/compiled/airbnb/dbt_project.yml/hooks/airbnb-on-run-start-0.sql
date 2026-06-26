@@ -1,0 +1,1 @@
+create table if not exists PROD.audit_log( model_name STRING, run_timestamp TIMESTAMP)
