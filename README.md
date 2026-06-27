@@ -327,7 +327,7 @@ The docs site includes model descriptions, column definitions, the full lineage 
 
 ### Lineage Graph
 
-![Airbnb dbt Lineage DAG](./lineage_dag.png)
+![Airbnb dbt Lineage DAG](./lineage_dag.svg)
 
 ### Materialization Strategy
 
